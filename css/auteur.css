@@ -1,0 +1,15 @@
+.listSource {
+    list-style-type: disc;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+.image{
+    height: 300px;
+    width: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+}

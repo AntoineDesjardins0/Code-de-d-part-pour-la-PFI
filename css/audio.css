@@ -1,0 +1,42 @@
+
+
+.separation {
+    display: flex;
+    gap:8px;
+    flex-wrap: wrap;
+}
+
+.header{
+    font-size:2em;
+    font-family: "Ojuju", sans-serif;
+}
+
+.subject{
+    flex: 1;
+    
+    text-align: justify;
+}
+
+.list{
+margin-top: 5px;
+margin-bottom: 5px;
+margin-left: 20px;
+list-style-type: disc;
+}
+
+.image {
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    
+}
+
+
+@media screen and (max-width:836px) {
+    .separation {
+        display: block;
+    }
+}
+
